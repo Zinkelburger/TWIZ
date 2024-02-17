@@ -1,0 +1,113 @@
+/*
+ Theme Name:   Nexus Child
+ Theme URI:    http://www.elegantthemes.com
+ Description:  Nexus Child Theme
+ Author:       Pete Long
+ Author URI:   https://www.petenetlive.com
+ Template:     Nexus
+ Version:      1.7.10
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  nexus-child
+*/
+@import url('../Nexus/style.css');
+/**************************Code By Pete Long ******************************/
+.box-text
+{
+    font-family: Courier New,monospace;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.box-text .ASA_RED
+{
+    color: #ff0000;
+    font-style: italic;
+       /**display: block; **/
+}
+.box-text .ASA_RED_INLINE
+{
+    display: inline-block;
+}
+.box-text p  strong
+{
+    
+}
+.et-box-content .box-text p strong {
+    
+}
+
+pre {
+word-break: break-all;
+word-wrap: break-word;
+white-space: pre;
+white-space: -moz-pre-wrap;
+white-space: pre-wrap;
+white-space: pre\9;
+overflow: auto;
+}
+
+/*.page-template-default .entry-content table { table-layout: fixed;}
+.page-template-default .entry-content table { width: 100% !important;
+font-size: 100%;
+font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.page-template-default .entry-content table tr {
+display: inherit;
+width: 100%;
+}
+.page-template-default .entry-content table tr td { width: 100% !important;
+font-size: 100%;
+font-family: Verdana, Arial, Helvetica, sans-serif; border-top: 0px solid #eee;
+padding: 3px 5px} */
+
+.custom-br{line-height: 0.1; display:block;}
+.et-box-content{    padding: 17px 8px 6px 28px !important;
+                                   /* These are technically the same, but use both */
+                                   overflow-wrap: break-word;
+                                   word-wrap: break-word;
+
+                                  -ms-word-break: break-all;
+                                   /* This is the dangerous one in WebKit, as it breaks things wherever */
+                                   word-break: break-all;
+                                   /* Instead use this non-standard one: */
+                                   word-break: break-word;
+
+}
+
+#left-area table table span {color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal;}
+#left-area table table p {color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal;}
+#left-area .tbl-subnet-calculator table table tr td {padding: 2px 4px;}
+#left-area table .tbl-subnet-calculator tr {border:0px !Important;}
+#left-area table .tbl-subnet-calculator tr td {border:0px !Important;}
+#left-area table .tbl-subnet-calculator {border: 0px solid #fff; margin-bottom:0px;}
+#left-area table .tbl-subnet-calculator-main-tbl {border: 2px solid #fff; margin-bottom:0px;}
+#left-area table .tbl-subnet-calculator-main-tbl .tbl-title-ip-subnet tbody {float: none;} 
+#left-area table .tbl-subnet-calculator tbody {float: left; width: 100%; border: 1px solid #fff; 
+margin-bottom:0px;}
+#left-area .entry-content .et-shadow .et-box-content {margin-bottom: 0px !Important;}
+
+/**************************Start Code to trim the featured picture******************************/
+
+
+.post-thumbnail {
+    max-width: 1301px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 823px) {
+.post-thumbnail {
+    max-width: 765px;
+}
+}
+@media screen and (max-width: 736px) {
+.post-thumbnail {
+    max-width: 478px;
+}
+}
+@media screen and (max-width: 414px) {
+.post-thumbnail {
+    max-width: 320px;
+}
+}
+
+/**************************End Code to trim the featured picture******************************/

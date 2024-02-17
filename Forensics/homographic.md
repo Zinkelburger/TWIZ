@@ -1,0 +1,1 @@
+You can use Cyrillic / other unicode characters to mimic legitimate processes / accounts like `Administrator` or `csrss.exe`. This can be mitigated by disabling accounts with scripts and making sure to check the "verified signers" field of process explorer.
